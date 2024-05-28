@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GfG | Button In Kotlin</string>
+    <string name="btn">Button</string>
+    <string name="message">This is a button trainig. Nothing too much</string>
+</resources>

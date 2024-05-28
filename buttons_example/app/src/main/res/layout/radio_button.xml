@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Select your car"
+       android:textStyle="bold"
+       android:layout_marginLeft="10dp"
+       android:textSize="20dp" />
+
+    <RadioGroup
+       android:layout_marginTop="50dp"
+        android:id="@+id/groupradio"
+        android:layout_marginLeft="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radi_idl1"
+            android:text="Porsche rari"
+            android:textSize="20dp">
+        </RadioButton>
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radi_idl2"
+            android:text="Mazda rari"
+            android:textSize="20dp">
+        </RadioButton>
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radi_idl3"
+            android:text="BMW rari"
+            android:textSize="20dp">
+        </RadioButton>
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radi_idl4"
+            android:text="Subaru rari"
+            android:textSize="20dp">
+        </RadioButton>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/groupradio"
+        android:text="Submit"
+        android:id="@+id/submit_button">
+</Button>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/submit_button"
+        android:text="Clear"
+        android:id="@+id/clear_text">
+    </Button>
+
+
+
+    </RelativeLayout>
